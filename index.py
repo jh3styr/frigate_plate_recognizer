@@ -20,9 +20,9 @@ _LOGGER = None
 
 VERSION = os.getenv("TAG_NAME")
 
-CONFIG_PATH = './config/config.yml'
-DB_PATH = './config/frigate_plate_recogizer.db'
-LOG_FILE = './config/frigate_plate_recogizer.log'
+CONFIG_PATH = '/config/config.yml'
+DB_PATH = '/config/frigate_plate_recogizer.db'
+LOG_FILE = '/config/frigate_plate_recogizer.log'
 
 PLATE_RECOGIZER_BASE_URL = 'https://api.platerecognizer.com/v1/plate-reader'
 DEFAULT_OBJECTS = ['car', 'motorcycle', 'bus']
